@@ -1,2 +1,87 @@
-# project2-statistical-loan-risk
-End-to-end statistical analysis of loan default drivers, tail risk modeling, and Early Warning Indicator framework.
+# Statistical Drivers of Loan Default Risk
+
+## 📌 Project Overview
+
+This project analyzes loan-level data to identify statistical drivers of default risk and develop a structured Early Warning Indicator (EWI) framework.
+
+The analysis transforms descriptive metrics into operational watchlist and escalation logic.
+
+---
+
+## 📊 Dataset
+
+1,000 loans across:
+- Auto
+- Mortgage
+- Personal
+- Business
+- Home Equity
+
+Key variables include:
+- Loan amount
+- Outstanding balance
+- Interest rate
+- Payment behavior
+- Default flags
+
+---
+
+## 🔬 Analytical Framework
+
+### 1️⃣ Data Standardization
+- Normalized column names
+- Converted monetary strings to numeric
+- Harmonized product categories
+
+### 2️⃣ Product-Level Default Analysis
+- Default rates by loan type
+- 95% confidence intervals
+- Risk band classification
+
+### 3️⃣ Tail Risk Modeling
+- 90th / 95th / 99th percentile exposure
+- Concentration detection
+
+### 4️⃣ Early Warning Indicator (EWI)
+Composite score based on:
+- Missed payments
+- Tail exposure
+- Product uncertainty risk
+
+### 5️⃣ Watchlist Escalation Framework
+| Tier | Action |
+|------|--------|
+| LOW | Normal monitoring |
+| MEDIUM | Portfolio review |
+| HIGH | Watchlist |
+| CRITICAL | Immediate escalation |
+
+---
+
+## 📈 Key Findings
+
+- 26% of loans require escalation
+- Tail exposure concentrated in higher-risk products
+- Behavioral risk (missed payments) is strongest default predictor
+
+---
+
+## 🛠 Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## ▶ View Full Interactive Analysis
+
+Download HTML version in `/outputs` folder or open locally.
+
+---
+
+## 🎯 Strategic Impact
+
+This project demonstrates how statistical analysis can be translated into operational risk monitoring and portfolio governance frameworks.
+
