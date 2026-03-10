@@ -1,6 +1,6 @@
 # Statistical Drivers of Loan Default Risk
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes loan-level data to identify statistical drivers of default risk and develop a structured Early Warning Indicator (EWI) framework.
 
@@ -8,7 +8,7 @@ The analysis transforms descriptive metrics into operational watchlist and escal
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 1,000 loans across:
 - Auto
@@ -26,29 +26,29 @@ Key variables include:
 
 ---
 
-## 🔬 Analytical Framework
+## Analytical Framework
 
-### 1️⃣ Data Standardization
+### Data Standardization
 - Normalized column names
 - Converted monetary strings to numeric
 - Harmonized product categories
 
-### 2️⃣ Product-Level Default Analysis
+### Product-Level Default Analysis
 - Default rates by loan type
 - 95% confidence intervals
 - Risk band classification
 
-### 3️⃣ Tail Risk Modeling
+### Tail Risk Modeling
 - 90th / 95th / 99th percentile exposure
 - Concentration detection
 
-### 4️⃣ Early Warning Indicator (EWI)
+### Early Warning Indicator (EWI)
 Composite score based on:
 - Missed payments
 - Tail exposure
 - Product uncertainty risk
 
-### 5️⃣ Watchlist Escalation Framework
+### Watchlist Escalation Framework
 | Tier | Action |
 |------|--------|
 | LOW | Normal monitoring |
@@ -58,7 +58,7 @@ Composite score based on:
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 - 26% of loans require escalation
 - Tail exposure concentrated in higher-risk products
@@ -66,7 +66,7 @@ Composite score based on:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - Python
 - Pandas
 - NumPy
@@ -75,13 +75,13 @@ Composite score based on:
 
 ---
 
-## ▶ View Full Interactive Analysis
+## View Full Interactive Analysis
 
 Download HTML version in `/outputs` folder or open locally.
 
 ---
 
-## 🎯 Strategic Impact
+## Strategic Impact
 
 This project demonstrates how statistical analysis can be translated into operational risk monitoring and portfolio governance frameworks.
 
